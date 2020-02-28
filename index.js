@@ -19,7 +19,7 @@ function johnLennonFacts(facts) {
     i++
   }
 
-  return shoutedFacts
+  return Facts
 }
 
 function iLoveTheBeatles(n) {
