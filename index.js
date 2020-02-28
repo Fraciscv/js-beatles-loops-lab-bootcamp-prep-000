@@ -1,8 +1,8 @@
 function theBeatlesPlay(musicians, instruments) {
   const array = []
 
-  for (let i = 0, l = musicians.length; i < l; i++) {
-    array.push(`${musicians[i]} plays ${instruments[i]}`)
+  for (let i = 0, i < musicians.length; i++) {
+    array.push(`${musicians[i]} plays ${instruments[i]}`) //returns an array of strings containing what instruments each musician plays.
   }
 
   return array
@@ -13,7 +13,7 @@ function johnLennonFacts(facts) {
 
   let i = 0
   while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
+    shoutedFacts.push(`${facts[i]}!!!`) //returns an array of strings with exclamation points
     i++
   }
 
