@@ -9,23 +9,23 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  const shoutedFacts = []
+  var shoutedFacts = []
 
   let i = 0
   while (i < facts.length) {
     shoutedFacts.push(`${facts[i]}!!!`); //returns an array of strings with exclamation points
-    i++
+    i+=
   }
 
   return shoutedFacts
 }
 
 function iLoveTheBeatles(n) {
-  const array = []
+  var array = []
 
   do {
     array.push('I love the Beatles!');
-    n++
+    n+=
   } while (n < 15)
 
   return array
